@@ -19,5 +19,26 @@
     <ion-input [(ngModel)]="num1"></ion-input>
   </ion-item>
 
+<<<<<<< HEAD
+=======
+  <ion-item>
+    <ion-label position="floating"> Altura:</ion-label>
+    <ion-input [(ngModel)]="num2"></ion-input>
+  </ion-item>
+
+  <ion-list>
+    <ion-item>
+      <ion-select [(ngModel)]="escolha" name="escolha" placeholder="Escolha o Sexo">
+        <ion-select-option value="Homem">Homem</ion-select-option>
+        <ion-select-option value="Mulher">Mulher</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-button color="dark" shape="round" (click)="calcular()">Resultado</ion-button>
+  <p>{{saida}}</p>
+  <p>{{saida2}}</p>
+  <ion-img src="{{img}}" ></ion-img>
+>>>>>>> ef1112fa3aa9ac7eecf3bc5c87cfea52afd944a4
   </div>
 </ion-content>

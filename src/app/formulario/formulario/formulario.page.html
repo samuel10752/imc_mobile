@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="Titulo">Formulario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content >
+  <form [formGroup]="clienteForm" (ngSubmit)="enviar()">
+   <div id="Principal">
+    <ion-item>
+      <ion-label position="floating"> Nome:</ion-label>
+      <ion-input [(ngModel)]="cliente.nome" formControlName="nome"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating"> Email:</ion-label>
+      <ion-input [(ngModel)]="cliente.email" formControlName="email"></ion-input>
+    </ion-item>
+
+    <ion-button type="submit">Confirmar</ion-button>
+
+  </div>  
+  </form>
+</ion-content>

@@ -16,7 +16,6 @@ const routes: Routes = [
     loadChildren: () => import('./formulario/formulario/formulario.module').then( m => m.FormularioPageModule)
   },
 ];
-
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })

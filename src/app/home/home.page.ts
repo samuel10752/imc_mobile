@@ -15,8 +15,6 @@ export class HomePage {
   img : any = "assets/icon/favicon.png"
   constructor() {}
 
-<<<<<<< HEAD
-=======
 
 calcular(){
   var n1 = parseFloat(this.num1)
@@ -68,5 +66,5 @@ calcular(){
 
   }
 }
->>>>>>> ef1112fa3aa9ac7eecf3bc5c87cfea52afd944a4
+
 }
